@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class ClockTest
+{
+public static void main(String[]args)
+{
+	Scanner keyboard = new Scanner(System.in);
+	
+	System.out.println(" Please write hour: ");
+	int hour=keyboard.nextInt();	
+	keyboard.nextLine();
+	
+	System.out.println(" Please write minute: ");
+	int minute=keyboard.nextInt();	
+	keyboard.nextLine();
+	
+	System.out.println(" Please write second: ");
+	int second=keyboard.nextInt();
+	keyboard.nextLine();
+	
+	
+	System.out.println(" Please write time in second: ");
+	int getTimeInSecond=keyboard.nextInt();
+	keyboard.nextLine();
+	
+	
+	
+	
+	
+}

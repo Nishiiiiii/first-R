@@ -1,0 +1,58 @@
+
+public class Clock 
+{
+	private int hour;
+	private int minute;
+	private int second;
+
+	public Clock(int hour, int minute, int second)
+	
+	{
+	this.hour= hour;
+	this.minute= minute;
+	this.second= second;
+	
+}
+    public int gethour()
+    {
+	return hour;
+    }
+    
+    public int getminute()
+    {
+    	return minute;
+    	
+    }
+    public int getsecond()  
+    {
+    	return second;
+    	
+    }
+    public void setClock(int hour, int minute, int second)
+    {
+    	this.hour= hour;
+    	this.minute= minute;
+    	this.second= second;
+    }
+  
+     public int getTimeInSeconds()
+     {
+    	 int getTimeInSeconds = hour*3600 + minute*60 + second;
+    	 return getTimeInSeconds;
+     }
+     
+     public String getSimpleTime()
+     {
+    	 return hour + ":" + minute;
+     }
+    public String toString()
+    {
+	
+    	return hour + ":" + minute + ":" + second;
+    	}
+    	
+  
+    	
+    	
+    	
+}
